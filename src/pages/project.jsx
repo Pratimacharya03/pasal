@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import Header from '../component/header';
+import Header from '../pages/header';
 import Footer from './footer';
 import Cards from './cards';
 

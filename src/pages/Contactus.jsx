@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../component/header';
+import Header from '../pages/header';
 import Footer from './footer';
 import Form from 'react-bootstrap/Form'
 import { Container,Button } from 'react-bootstrap'

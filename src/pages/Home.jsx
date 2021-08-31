@@ -1,15 +1,10 @@
 import React from 'react'
-import Slider from './slider'
-import Header from '../component/header';
-import {Row,Col,Container,Button} from 'react-bootstrap'
-import pic from '../images/picture 3.jpeg'
-import pic5 from '../images/picture 5.jpeg'
-import pic6 from '../images/picture 6.jpeg'
-import pic7 from '../images/picture 7.jpeg'
+import Header from '../pages/header';
+import {Row,Col,Container,Button, Form} from 'react-bootstrap'
+import Slider from '../pages/homeslide'
+
 import Buttons from './Buttons';
 import Footer from './footer';
-import Form from 'react-bootstrap/Form'
-
 
 export default function Home() {
     return (
@@ -21,7 +16,7 @@ export default function Home() {
                     <Row>
                         <Col xl={6}>
                             <h1 className='box'>
-                                <img src={pic} alt='pic3' height='300px' />
+                                <img src="https://picsum.photos/1000/600" alt='pic3' className="img-fluid" />
                             </h1>
                         </Col>
                         <Col className='my-4' xl={6}>
@@ -58,11 +53,11 @@ export default function Home() {
                             <Buttons />
                         </Col>
                         <Col xl={4}>
-                            <img src={pic5} style={{ height: '100%', width: '100%' }} alt='pic' />
+                            {/* <img src={pic5} style={{ height: '100%', width: '100%' }} alt='pic' /> */}
                         </Col>
                         <Col xl={4}>
-                            <img src={pic6} style={{ width: '100%', height: 'auto' }} alt='pic' />
-                            <img src={pic7} style={{ width: '100%', height: 'auto' }} className='my-5' alt='pic' />
+                            {/* <img src={pic6} style={{ width: '100%', height: 'auto' }} alt='pic' /> */}
+                            {/* <img src={pic7} style={{ width: '100%', height: 'auto' }} className='my-5' alt='pic' /> */}
                         </Col>
                     </Row>
 

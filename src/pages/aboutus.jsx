@@ -1,9 +1,8 @@
 import React from 'react'
-import Header from '../component/header';
+import Header from '../pages/header';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import pic8 from '../images/picture 8.jpeg'
 import Footer from './footer';
 export default function Aboutus() {
     return (

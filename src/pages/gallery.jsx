@@ -1,8 +1,6 @@
 import React from 'react'
-import Header from '../component/header';
+import Header from '../pages/header';
 import Footer from './footer';
-
-import PhotoGallery from './photoGallery';
 export default function Gallery() {
     return (
         <>
